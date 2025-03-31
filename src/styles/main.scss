@@ -1,0 +1,12 @@
+// Import Design System base styles, forms, and components
+@import '@scottish-government/design-system/src/base/all-base';
+@import '@scottish-government/design-system/src/forms/all-forms';
+@import '@scottish-government/design-system/src/components/all-components';
+
+// Custom Styles
+@media (min-width: 768px) {
+    .ds_site-footer__copyright {
+        padding-left: 0; /* Remove the left padding */
+        position: relative;
+    }
+}
